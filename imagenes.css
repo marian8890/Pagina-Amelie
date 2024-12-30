@@ -1,0 +1,115 @@
+.imagen-peluqueria {  
+    position: relative; 
+    background-image: url('imagenes/curso-peluqueria.png');  
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-size: contain;  
+    height: 100vh;   
+    margin-bottom: 20px;
+    
+}  
+
+.imagen-peluqueria::before {  
+    content: ''; /* Necesario para que el pseudo-elemento se muestre */  
+    position: absolute; /* Posiciona el pseudo-elemento en relación al contenedor */  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-color: rgba(255, 255, 255, 0.5); /* Ajusta el color y la opacidad */  
+    z-index: 1; /* El pseudo-elemento debe estar abajo (menor que el texto) */  
+}  
+
+  
+.imagen-peluqueria > * {  
+    position: relative; 
+    z-index: 2;   
+    color: black; 
+}
+
+.imagen-estetica {  
+    position: relative; 
+    background-image: url('imagenes/imagen-estetica.png');  
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-size: contain;  
+    height: 100vh;   
+    margin-bottom: 20px;
+    
+}  
+
+.imagen-estetica::before {  
+    content: ''; /* Necesario para que el pseudo-elemento se muestre */  
+    position: absolute; /* Posiciona el pseudo-elemento en relación al contenedor */  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-color: rgba(255, 255, 255, 0.5); /* Ajusta el color y la opacidad */  
+    z-index: 1; /* El pseudo-elemento debe estar abajo (menor que el texto) */  
+}  
+
+  
+.imagen-estetica > * {  
+    position: relative; 
+    z-index: 2;   
+    color: black; 
+}
+
+.imagen-maquillaje {  
+    position: relative; 
+    background-image: url('imagenes/curso-makeup.png');  
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-size: contain;  
+    height: 100vh;   
+    margin-bottom: 20px;
+    
+}  
+
+.imagen-maquillaje::before {  
+    content: ''; /* Necesario para que el pseudo-elemento se muestre */  
+    position: absolute; /* Posiciona el pseudo-elemento en relación al contenedor */  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-color: rgba(255, 255, 255, 0.5); /* Ajusta el color y la opacidad */  
+    z-index: 1; /* El pseudo-elemento debe estar abajo (menor que el texto) */  
+}  
+
+  
+.imagen-maquillaje > * {  
+    position: relative; 
+    z-index: 2;   
+    color: black; 
+}
+
+.imagen-makeupInfantil {  
+    position: relative; 
+    background-image: url('imagenes/makeupInfantil.png');  
+    background-repeat: no-repeat;  
+    background-position: center;  
+    background-size: contain;  
+    height: 100vh;   
+    margin-bottom: 30px;
+    
+}  
+
+.imagen-makeupInfantil::before {  
+    content: ''; /* Necesario para que el pseudo-elemento se muestre */  
+    position: absolute; /* Posiciona el pseudo-elemento en relación al contenedor */  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-color: rgba(255, 255, 255, 0.5); /* Ajusta el color y la opacidad */  
+    z-index: 1; /* El pseudo-elemento debe estar abajo (menor que el texto) */  
+}  
+
+  
+.imagen-makeupInfantil > * {  
+    position: relative; 
+    z-index: 2;   
+    color: black; 
+}
